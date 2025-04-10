@@ -13,3 +13,4 @@ If you are developing a production application, we recommend using TypeScript an
 # photoshooter
 
 TESTE COMMIT
+TESTE 2
