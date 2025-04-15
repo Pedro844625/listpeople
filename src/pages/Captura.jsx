@@ -5,7 +5,6 @@ const Captura = () => {
     const videoRef = useRef(null);
     const canvasRef = useRef(null);
 
-    // Ativar a webcam ao carregar o componente
     React.useEffect(() => {
         navigator.mediaDevices.getUserMedia({ video: true })
             .then(stream => {
@@ -29,8 +28,8 @@ const Captura = () => {
             context.drawImage(video, 0, 0, canvas.width, canvas.height);
 
             const base64Image = canvas.toDataURL('image/png');
-            alert(base64Image); // Exibe o base64
-            // Aqui você pode usar base64Image como quiser (ex: enviar para backend)
+            alert(base64Image);
+
         }
     };
 
