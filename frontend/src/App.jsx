@@ -20,7 +20,10 @@ export default function App() {
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/captura">Captura</Link>
+                                <Link className="nav-link" to="/pessoas">Pessoas</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/pessoas/cadastro">Cadastro</Link>
                             </li>
                         </ul>
                     </div>
