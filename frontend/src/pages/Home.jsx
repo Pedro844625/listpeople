@@ -1,3 +1,3 @@
 export default function Home() {
-    return <h1>Página Inicial</h1>;
+    return <h1>Cadastro de Pessoa</h1>;
 }
