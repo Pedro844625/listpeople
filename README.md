@@ -23,7 +23,7 @@ Este projeto é uma aplicação web completa, desenvolvida com foco em boas prá
 ## 🧑‍💻 Tecnologias Utilizadas
 
 - **Frontend**: React.js, Bootstrap, JavaScript   dependências  NPM
-- **Backend**: Java, Spring Boot dependências  MENVING
+- **Backend**: Java, Spring Boot dependências  MVN
 - **API**: RESTful com Spring Web
 - **Banco de Dados**: MySQL
 - **Containerização**: Docker Compose
