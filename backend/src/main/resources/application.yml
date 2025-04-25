@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: photoshooter-backend
+    name: listpeople-backend
 
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/photoshooter}
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/listpeople}
     username: ${SPRING_DATASOURCE_USERNAME:user}
     password: ${SPRING_DATASOURCE_PASSWORD:password}
     driver-class-name: org.postgresql.Driver

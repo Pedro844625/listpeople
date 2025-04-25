@@ -1,7 +1,7 @@
-package br.com.photoshooter.mappers;
+package br.com.listpeople.mappers;
 
-import br.com.photoshooter.models.dtos.PessoaDto;
-import br.com.photoshooter.models.entities.PessoaEntity;
+import br.com.listpeople.models.dtos.PessoaDto;
+import br.com.listpeople.models.entities.PessoaEntity;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

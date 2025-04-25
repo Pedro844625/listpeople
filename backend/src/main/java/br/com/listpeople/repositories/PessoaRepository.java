@@ -1,6 +1,6 @@
-package br.com.photoshooter.repositories;
+package br.com.listpeople.repositories;
 
-import br.com.photoshooter.models.entities.PessoaEntity;
+import br.com.listpeople.models.entities.PessoaEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
