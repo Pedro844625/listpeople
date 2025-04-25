@@ -1,13 +1,29 @@
-# React + Vite
+# 📋 Sistema de Cadastro de Pessoas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um sistema web simples para **cadastrar** e **deletar** pessoas, utilizando uma arquitetura com **frontend**, **backend** e **API** em Java.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- ✅ Cadastro de pessoas
+- ✅ Listagem de registros
+- ✅ Exclusão de pessoas por ID
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# photoshooter
+---
+
+## 🧑‍💻 Tecnologias Utilizadas
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend/API:** Java (Spring Boot)
+- **Banco de Dados:** MySQL (ou outro, se diferente)
+
+---
+
+## 🌐 Endpoints da API
+
+| Método | Rota                | Descrição                          |
+|--------|---------------------|------------------------------------|
+| GET    | `/pessoas`          | Retorna todas as pessoas cadastradas |
+| POST   | `/pessoas`          | Cadastra uma nova pessoa           |
+| DELETE | `/pessoas/{id}`     | Deleta uma pessoa pelo ID          |
