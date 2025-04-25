@@ -1,8 +1,8 @@
-package br.com.photoshooter.utils;
+package br.com.listpeople.utils;
 
-import br.com.photoshooter.mappers.PessoaMapper;
-import br.com.photoshooter.models.dtos.PessoaDto;
-import br.com.photoshooter.models.entities.PessoaEntity;
+import br.com.listpeople.mappers.PessoaMapper;
+import br.com.listpeople.models.dtos.PessoaDto;
+import br.com.listpeople.models.entities.PessoaEntity;
 import jakarta.validation.ValidationException;
 import lombok.experimental.UtilityClass;
 

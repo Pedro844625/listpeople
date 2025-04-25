@@ -1,4 +1,4 @@
-package br.com.photoshooter.settings;
+package br.com.listpeople.settings;
 
 import lombok.NonNull;
 import org.springframework.context.annotation.Bean;

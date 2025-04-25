@@ -1,9 +1,9 @@
-package br.com.photoshooter.services;
+package br.com.listpeople.services;
 
-import br.com.photoshooter.mappers.PessoaMapper;
-import br.com.photoshooter.models.dtos.PessoaDto;
-import br.com.photoshooter.repositories.PessoaRepository;
-import br.com.photoshooter.utils.PessoaUtils;
+import br.com.listpeople.mappers.PessoaMapper;
+import br.com.listpeople.models.dtos.PessoaDto;
+import br.com.listpeople.repositories.PessoaRepository;
+import br.com.listpeople.utils.PessoaUtils;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
