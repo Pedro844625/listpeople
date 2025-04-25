@@ -22,10 +22,8 @@ Este projeto é uma aplicação web completa, desenvolvida com foco em boas prá
 
 ## 🧑‍💻 Tecnologias Utilizadas
 
-- Sendo que a dependências são pelo npm
-
-- **Frontend**: React.js, Bootstrap, JavaScript
-- **Backend**: Java, Spring Boot
+- **Frontend**: React.js, Bootstrap, JavaScript   dependências  NPM
+- **Backend**: Java, Spring Boot dependências  MENVING
 - **API**: RESTful com Spring Web
 - **Banco de Dados**: MySQL
 - **Containerização**: Docker Compose
@@ -34,9 +32,9 @@ Este projeto é uma aplicação web completa, desenvolvida com foco em boas prá
 
 ## 🔗 Endpoints da API
 
-| Método HTTP | Endpoint                  | Descrição                            |
-|-------------|---------------------------|--------------------------------------|
+| Método HTTP | Endpoint                    | Descrição                              |
+|-------------|-----------------------------|----------------------------------------|
 | GET         | `/v1/pessoas`               | Retorna todos os registros cadastrados |
-| POST        | `//v1/pessoas`            | Cadastra uma nova pessoa              |
-| DELETE      | `/pess/v1/pessoasoas/{id}` | Remove uma pessoa com base no ID      |
+| POST        | `//v1/pessoas`              | Cadastra uma nova pessoa               |
+| DELETE      | `/pess/v1/pessoasoas/{id}`  | Remove uma pessoa com base no ID       |
 
