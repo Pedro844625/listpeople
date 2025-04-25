@@ -1,4 +1,4 @@
-package br.com.photoshooter.models.dtos;
+package br.com.listpeople.models.dtos;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;

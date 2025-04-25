@@ -1,7 +1,7 @@
-package br.com.photoshooter.controllers.v1;
+package br.com.listpeople.controllers.v1;
 
-import br.com.photoshooter.models.dtos.PessoaDto;
-import br.com.photoshooter.services.PessoaService;
+import br.com.listpeople.models.dtos.PessoaDto;
+import br.com.listpeople.services.PessoaService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

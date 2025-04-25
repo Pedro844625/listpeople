@@ -1,4 +1,4 @@
-package br.com.photoshooter.models.entities;
+package br.com.listpeople.models.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
